@@ -477,6 +477,20 @@ select[multiple] {
     margin: 70px auto;
 }
 
+.auth-card h1 {
+    font-size: clamp(1.9rem, 5vw, 3rem);
+    max-width: none;
+    margin-bottom: 12px;
+}
+
+.auth-card p {
+    color: var(--muted);
+}
+
+.auth-card .button {
+    width: 100%;
+}
+
 .reveal {
     transform: translateY(20px);
     opacity: 0;
@@ -542,5 +556,15 @@ select[multiple] {
     .lang-switcher {
         flex-direction: column;
         align-items: stretch;
+    }
+
+    .auth-card {
+        width: calc(100% - 24px);
+        margin: 24px auto;
+        padding: 20px;
+    }
+
+    .auth-card h1 {
+        font-size: 2rem;
     }
 }
