@@ -21,7 +21,7 @@ require_once BASE_PATH . '/includes/services/AIService.php';
 require_once BASE_PATH . '/includes/services/TaskService.php';
 
 load_env(BASE_PATH . '/.env');
-date_default_timezone_set(env('TZ', 'Asia/Shanghai'));
+date_default_timezone_set(env('TZ', 'Asia/Kolkata'));
 
 if (env_bool('SECURITY_HEADERS', true) && PHP_SAPI !== 'cli') {
     apply_security_headers();

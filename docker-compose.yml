@@ -15,7 +15,7 @@ services:
       DB_USER: ${DB_USER:-geo_user}
       DB_PASSWORD: ${DB_PASSWORD:-geo_password}
       APP_SECRET_KEY: ${APP_SECRET_KEY:-change-this-secret}
-      TZ: ${TZ:-Asia/Shanghai}
+      TZ: ${TZ:-Asia/Kolkata}
       AUTO_MIGRATE: "true"
       AUTO_SEED_ADMIN: "true"
       DEFAULT_ADMIN_USER: ${DEFAULT_ADMIN_USER:-admin}
@@ -51,7 +51,7 @@ services:
       DB_USER: ${DB_USER:-geo_user}
       DB_PASSWORD: ${DB_PASSWORD:-geo_password}
       APP_SECRET_KEY: ${APP_SECRET_KEY:-change-this-secret}
-      TZ: ${TZ:-Asia/Shanghai}
+      TZ: ${TZ:-Asia/Kolkata}
       AUTO_MIGRATE: "true"
       AUTO_SEED_ADMIN: "true"
     depends_on:
@@ -73,7 +73,7 @@ services:
       DB_USER: ${DB_USER:-geo_user}
       DB_PASSWORD: ${DB_PASSWORD:-geo_password}
       APP_SECRET_KEY: ${APP_SECRET_KEY:-change-this-secret}
-      TZ: ${TZ:-Asia/Shanghai}
+      TZ: ${TZ:-Asia/Kolkata}
       AUTO_MIGRATE: "true"
       AUTO_SEED_ADMIN: "true"
       AUTO_PUBLISH: ${AUTO_PUBLISH:-false}
@@ -85,4 +85,3 @@ services:
 
 volumes:
   geoflow_pgdata:
-

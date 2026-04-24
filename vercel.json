@@ -9,7 +9,12 @@
   },
   "routes": [
     {
-      "handle": "filesystem"
+      "src": "/public_assets/(.*)",
+      "dest": "/public_assets/$1"
+    },
+    {
+      "src": "/storage/uploads/(.*)",
+      "dest": "/storage/uploads/$1"
     },
     {
       "src": "/(.*)",
@@ -17,4 +22,3 @@
     }
   ]
 }
-
