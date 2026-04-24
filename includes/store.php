@@ -120,6 +120,15 @@ function store(): JsonStore
         return $store;
     }
 
-    $store = new JsonStore(BASE_PATH . '/storage/data.json');
+    $customPath = env('STORE_PATH');
+    if (is_string($customPath) && $customPath !== '') {
+        $path = $customPath;
+    } elseif (env('VERCEL')) {
+        $path = sys_get_temp_dir() . DIRECTORY_SEPARATOR . 'geoflow-data.json';
+    } else {
+        $path = BASE_PATH . '/storage/data.json';
+    }
+
+    $store = new JsonStore($path);
     return $store;
 }
