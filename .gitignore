@@ -1,0 +1,7 @@
+/.env
+/.idea/
+/storage/logs/*.log
+/storage/cache/*
+/storage/uploads/*
+!/storage/uploads/.gitkeep
+/vendor/

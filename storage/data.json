@@ -1,0 +1,211 @@
+{
+    "users": [
+        {
+            "username": "admin",
+            "password_hash": "$2y$12$WaDDuWAneW2.81YqUNpgx.RqdReMStUsy7v0ZXfcXNXTDt/uzpiUi",
+            "role": "admin",
+            "created_at": "2026-04-24 11:09:34",
+            "updated_at": "2026-04-24 11:09:34",
+            "id": 1
+        }
+    ],
+    "settings": [
+        {
+            "setting_key": "site_name",
+            "setting_value": "GEOFlow",
+            "created_at": "2026-04-24 11:09:34",
+            "updated_at": "2026-04-24 11:09:34",
+            "id": 1
+        },
+        {
+            "setting_key": "site_tagline",
+            "setting_value": "Generative Engine Optimization content pipeline",
+            "created_at": "2026-04-24 11:09:34",
+            "updated_at": "2026-04-24 11:09:34",
+            "id": 2
+        },
+        {
+            "setting_key": "site_description",
+            "setting_value": "Open-source GEO and SEO content production platform.",
+            "created_at": "2026-04-24 11:09:34",
+            "updated_at": "2026-04-24 11:09:34",
+            "id": 3
+        },
+        {
+            "setting_key": "theme",
+            "setting_value": "aurora",
+            "created_at": "2026-04-24 11:09:34",
+            "updated_at": "2026-04-24 11:09:34",
+            "id": 4
+        },
+        {
+            "setting_key": "auto_publish",
+            "setting_value": "false",
+            "created_at": "2026-04-24 11:09:34",
+            "updated_at": "2026-04-24 11:09:34",
+            "id": 5
+        }
+    ],
+    "ai_models": [],
+    "assets": [
+        {
+            "asset_type": "knowledge",
+            "title": "GEO starter knowledge base",
+            "content": "Focus on helpful, verifiable, audience-driven content that improves discovery and trust.",
+            "meta_json": {
+                "seed": true
+            },
+            "created_at": "2026-04-24 11:09:34",
+            "updated_at": "2026-04-24 11:09:34",
+            "id": 1
+        },
+        {
+            "asset_type": "knowledge",
+            "title": "Trust-building knowledge base",
+            "content": "Use verifiable claims, practical examples, and audience-specific structure.",
+            "meta_json": {
+                "seed": true
+            },
+            "created_at": "2026-04-24 11:41:38",
+            "updated_at": "2026-04-24 11:41:38",
+            "id": 2
+        },
+        {
+            "asset_type": "prompt",
+            "title": "Editorial prompt",
+            "content": "Write with clear sections, concise paragraphs, and production-ready SEO fields.",
+            "meta_json": {
+                "seed": true
+            },
+            "created_at": "2026-04-24 11:41:38",
+            "updated_at": "2026-04-24 11:41:38",
+            "id": 3
+        },
+        {
+            "asset_type": "keyword",
+            "title": "GEO workflow automation",
+            "content": "GEO workflow automation, AI content ops, SEO publishing pipeline",
+            "meta_json": {
+                "seed": true
+            },
+            "created_at": "2026-04-24 11:41:38",
+            "updated_at": "2026-04-24 11:41:38",
+            "id": 4
+        }
+    ],
+    "tasks": [
+        {
+            "name": "Demo GEO article",
+            "model_id": null,
+            "asset_ids_json": [
+                1
+            ],
+            "title_seed": "How GEOFlow structures GEO content operations",
+            "primary_keyword": "GEO content operations",
+            "language_code": "en",
+            "audience": "Marketing and content operations teams",
+            "category_name": "Platform",
+            "prompt_template": "Write a practical overview for teams adopting GEO workflows.",
+            "publish_mode": "review",
+            "schedule_at": "2026-04-24 11:09:34",
+            "status": "completed",
+            "article_id": 1,
+            "last_error": null,
+            "created_at": "2026-04-24 11:09:34",
+            "updated_at": "2026-04-24 11:10:12",
+            "id": 1
+        }
+    ],
+    "jobs": [
+        {
+            "task_id": 1,
+            "job_type": "generate_article",
+            "payload_json": {
+                "task_id": 1
+            },
+            "status": "done",
+            "attempts": 1,
+            "error_message": null,
+            "available_at": "2026-04-24 11:10:03",
+            "created_at": "2026-04-24 11:10:03",
+            "updated_at": "2026-04-24 11:10:12",
+            "id": 1
+        }
+    ],
+    "articles": [
+        {
+            "task_id": 1,
+            "title": "How GEOFlow structures GEO content operations",
+            "slug": "how-geoflow-structures-geo-content-operations-1",
+            "category_name": "Platform",
+            "category_slug": "platform",
+            "summary": "Automated GEO article for GEO content operations with review-ready structure.",
+            "body_html": "<p>How GEOFlow structures GEO content operations is generated through GEOFlow's automated pipeline with emphasis on discoverability, structured publishing, and reusable knowledge assets.</p><h2>Why this topic matters</h2><p>The target keyword <strong>GEO content operations</strong> is paired with a production workflow that supports scheduling, review, and publishing without losing editorial control.</p><h2>Operational framework</h2><ul><li>Define an intent-driven title and target audience.</li><li>Attach prompts, knowledge base notes, and reusable assets.</li><li>Run generation through queue workers and review before publishing.</li></ul><h2>Supporting assets</h2><ul><li><strong>GEO starter knowledge base:</strong> Focus on helpful, verifiable, audience-driven content that improves discovery and trust.</li></ul><h2>SEO execution</h2><p>This draft includes metadata scaffolding, Open Graph fields, and schema-ready structured data so teams can move from draft to publication quickly.</p><p><em>Language:</em> en</p>",
+            "status": "published",
+            "seo_title": "How GEOFlow structures GEO content operations | GEOFlow",
+            "seo_description": "Review-ready GEO content focused on GEO content operations.",
+            "open_graph_title": "How GEOFlow structures GEO content operations | GEOFlow",
+            "open_graph_description": "Review-ready GEO content focused on GEO content operations.",
+            "structured_data_json": {
+                "@context": "https://schema.org",
+                "@type": "Article",
+                "headline": "How GEOFlow structures GEO content operations",
+                "description": "Review-ready GEO content focused on GEO content operations.",
+                "datePublished": "2026-04-24T19:10:12+08:00"
+            },
+            "source_model": "fallback-writer",
+            "created_at": "2026-04-24 11:10:12",
+            "updated_at": "2026-04-24 11:41:38",
+            "published_at": "2026-04-24 11:41:38",
+            "id": 1
+        },
+        {
+            "task_id": null,
+            "title": "How GEOFlow turns content ops into a repeatable pipeline",
+            "slug": "how-geoflow-turns-content-ops-into-a-repeatable-pipeline",
+            "category_name": "Platform",
+            "category_slug": "platform",
+            "summary": "A practical walkthrough of task creation, queueing, review, and publishing in GEOFlow.",
+            "body_html": "<p>GEOFlow is built to connect prompts, assets, models, queue execution, and editorial review into one operating system for content teams.</p><h2>Core loop</h2><p>Teams define a title seed, keywords, audience, and supporting knowledge. The scheduler queues work, the worker generates drafts, and editors move the content through review to publication.</p><h2>Why this matters</h2><p>Without a repeatable workflow, content operations become fragmented. GEOFlow standardizes creation, metadata, and publishing so the system remains usable as output volume grows.</p>",
+            "status": "published",
+            "seo_title": "How GEOFlow turns content ops into a repeatable pipeline",
+            "seo_description": "Repeatable GEO and SEO content operations with queueing, review, and publishing.",
+            "open_graph_title": "How GEOFlow turns content ops into a repeatable pipeline",
+            "open_graph_description": "Repeatable GEO and SEO content operations with queueing, review, and publishing.",
+            "structured_data_json": {
+                "@context": "https://schema.org",
+                "@type": "Article",
+                "headline": "How GEOFlow turns content ops into a repeatable pipeline"
+            },
+            "source_model": "demo-publisher",
+            "created_at": "2026-04-24 11:41:38",
+            "updated_at": "2026-04-24 11:41:38",
+            "published_at": "2026-04-24 11:41:38",
+            "id": 2
+        },
+        {
+            "task_id": null,
+            "title": "Designing a GEO knowledge base before scaling AI generation",
+            "slug": "designing-a-geo-knowledge-base-before-scaling-ai-generation",
+            "category_name": "Strategy",
+            "category_slug": "strategy",
+            "summary": "Why a reliable knowledge base should come before heavy automation in GEO-driven publishing.",
+            "body_html": "<p>Strong GEO systems start with useful source material. A knowledge base gives AI workflows boundaries, proof points, and a stable editorial point of view.</p><h2>What to store</h2><p>Store product truths, audience pain points, source links, differentiators, and reusable prompt components.</p><h2>Operational result</h2><p>When the worker generates drafts from good assets, review becomes faster and published pages become more consistent and trustworthy.</p>",
+            "status": "published",
+            "seo_title": "Designing a GEO knowledge base before scaling AI generation",
+            "seo_description": "Build trust-first knowledge assets before scaling automated GEO content generation.",
+            "open_graph_title": "Designing a GEO knowledge base before scaling AI generation",
+            "open_graph_description": "Build trust-first knowledge assets before scaling automated GEO content generation.",
+            "structured_data_json": {
+                "@context": "https://schema.org",
+                "@type": "Article",
+                "headline": "Designing a GEO knowledge base before scaling AI generation"
+            },
+            "source_model": "demo-publisher",
+            "created_at": "2026-04-24 11:41:38",
+            "updated_at": "2026-04-24 11:41:38",
+            "published_at": "2026-04-24 11:41:38",
+            "id": 3
+        }
+    ]
+}
