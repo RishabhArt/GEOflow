@@ -5,3 +5,5 @@
 /storage/uploads/*
 !/storage/uploads/.gitkeep
 /vendor/
+
+.vercel
